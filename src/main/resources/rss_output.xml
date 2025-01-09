@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Pau Masià</title>
+        <description>Feed RSS de artistas y albumes</description>
+        
+            <item>
+                <title>Drake</title>
+                <description>
+
+                    <p><strong>Nombre:</strong> <span>Aubrey Drake Graham</span></p>
+                    <p><strong>País:</strong> <span>Canada</span></p>
+                    <p><strong>Álbumes:</strong></p>
+                    <ul>
+                        <li>
+                            <p><strong>Título:</strong> <span>Thank me later</span></p>
+                            <p><strong>Año:</strong> <span>2010</span></p>
+                            <p><strong>Ventas:</strong> <span>2300000</span></p>
+                            <img src="../img/Thank_Me_Later_cover.jpg" alt="Portada">
+                        </li>
+                        <li>
+                            <p><strong>Título:</strong> <span>Take Care</span></p>
+                            <p><strong>Año:</strong> <span>2011</span></p>
+                            <p><strong>Ventas:</strong> <span>3100000</span></p>
+                            <img src="../img/Drake_-_Take_Care_cover.jpg" alt="Portada">
+                        </li>
+                        <li>
+                            <p><strong>Título:</strong> <span>Views</span></p>
+                            <p><strong>Año:</strong> <span>2016</span></p>
+                            <p><strong>Ventas:</strong> <span>2100000</span></p>
+                            <img src="../img/Drake_-_Views_cover.jpg" alt="Portada">
+                        </li>
+                    </ul>
+                </description>
+            </item>
+        
+            <item>
+                <title>Kendrick Lamar</title>
+                <description>
+
+                    <p><strong>Nombre:</strong> <span>Kendrick Lamar Duckworth</span></p>
+                    <p><strong>País:</strong> <span>USA</span></p>
+                    <p><strong>Álbumes:</strong></p>
+                    <ul>
+                        <li>
+                            <p><strong>Título:</strong> <span>Section .80</span></p>
+                            <p><strong>Año:</strong> <span>2011</span></p>
+                            <p><strong>Ventas:</strong> <span>150000</span></p>
+                            <img src="../img/Section.80-Cover.jpg" alt="Portada">
+                        </li>
+                        <li>
+                            <p><strong>Título:</strong> <span>Mr. Morale &amp; the Big Steppers</span></p>
+                            <p><strong>Año:</strong> <span>2022</span></p>
+                            <p><strong>Ventas:</strong> <span>200000</span></p>
+                            <img src="../img/Kendrick_Lamar_-_Mr._Morale_&amp;_the_Big_Steppers.png" alt="Portada">
+                        </li>
+                        <li>
+                            <p><strong>Título:</strong> <span>Damn</span></p>
+                            <p><strong>Año:</strong> <span>2017</span></p>
+                            <p><strong>Ventas:</strong> <span>1000000</span></p>
+                            <img src="../img/Kendrick_Lamar_-_Damn.png" alt="Portada">
+                        </li>
+                    </ul>
+                </description>
+            </item>
+        
+            <item>
+                <title>J. Cole</title>
+                <description>
+
+                    <p><strong>Nombre:</strong> <span>Jermaine Lamarr Cole</span></p>
+                    <p><strong>País:</strong> <span>Germany</span></p>
+                    <p><strong>Álbumes:</strong></p>
+                    <ul>
+                        <li>
+                            <p><strong>Título:</strong> <span>Cole World: The Sideline Story</span></p>
+                            <p><strong>Año:</strong> <span>2011</span></p>
+                            <p><strong>Ventas:</strong> <span>900000</span></p>
+                            <img src="../img/ColeWorld.jpeg" alt="Portada">
+                        </li>
+                        <li>
+                            <p><strong>Título:</strong> <span>2014 Forest Hills Drive</span></p>
+                            <p><strong>Año:</strong> <span>2014</span></p>
+                            <p><strong>Ventas:</strong> <span>1300000</span></p>
+                            <img src="../img/2014ForestHillsDrive.jpg" alt="Portada">
+                        </li>
+                        <li>
+                            <p><strong>Título:</strong> <span>Kids On Drugs</span></p>
+                            <p><strong>Año:</strong> <span>2018</span></p>
+                            <p><strong>Ventas:</strong> <span>300000</span></p>
+                            <img src="../img/JColeKOD.jpg" alt="Portada">
+                        </li>
+                    </ul>
+                </description>
+            </item>
+        
+    </channel>
+</rss>
