@@ -1,0 +1,38 @@
+{
+  "type": "array",
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "description": "",
+  "minItems": 1,
+  "uniqueItems": true,
+  "items": {
+    "type": "object",
+    "required": [
+      "name",
+      "birth",
+      "country",
+      "artistName",
+      "actualImage"
+    ],
+    "properties": {
+      "name": {
+        "type": "string",
+        "minLength": 1
+      },
+      "birth": {
+        "type": "number"
+      },
+      "country": {
+        "type": "string",
+        "minLength": 1
+      },
+      "artistName": {
+        "type": "string",
+        "minLength": 1
+      },
+      "actualImage": {
+        "type": "string",
+        "minLength": 1
+      }
+    }
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "type": "array",
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "description": "",
+  "minItems": 1,
+  "uniqueItems": true,
+  "items": {
+    "type": "object",
+    "required": [
+      "nomArt",
+      "titol",
+      "any",
+      "ventes",
+      "portada"
+    ],
+    "properties": {
+      "nomArt": {
+        "type": "string",
+        "minLength": 1
+      },
+      "titol": {
+        "type": "string",
+        "minLength": 1
+      },
+      "any": {
+        "type": "number"
+      },
+      "ventes": {
+        "type": "number"
+      },
+      "portada": {
+        "type": "string",
+        "minLength": 1
+      }
+    }
+  }
+}

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title th:text="${nameIndex}"></title>
+    <link rel="stylesheet" href="src/css/index.css">
+</head>
+<body>
+<h1 th:text="${nameIndex}"></h1>
+<ul>
+    <li th:each="autor : ${autor}">
+        <div class="autor-container">
+            <div class="autor-text">
+                <p>
+                    <strong>Nombre:</strong> <span th:text="${autor.name}">Nombre del Autor</span>
+                    - <strong>A.K.A :</strong> <span th:text="${autor.artistName}">Nombre Artistico</span>
+                    <br>
+                    <strong>Pais:</strong> <span th:text="${autor.country}">Pais</span>
+                    - <strong>Año de nacimiento:</strong> <span th:text="${autor.birth}">Año</span>
+                    <br>
+                    <strong><a th:href="'src/main/resToNGINX/'+${autor.artistName}+'.html'">Ver los albumes del artista</a></strong>
+                </p>
+            </div>
+            <img class="autor-image" th:src="${autor.actualImage}" alt="Imagen de Artista">
+        </div>
+    </li>
+</ul>
+</body>
+</html>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Pau Masià</title>
+        <description>Feed RSS de artistas y albumes</description>
+        <th:block th:each="autor : ${autorsTotales}">
+            <item>
+                <title th:text="${autor.key.artistName}">Nombre del Artista</title>
+                <description>
+
+                    <p><strong>Nombre:</strong> <span th:text="${autor.key.name}"></span></p>
+                    <p><strong>País:</strong> <span th:text="${autor.key.country}"></span></p>
+                    <p><strong>Álbumes:</strong></p>
+                    <ul>
+                        <li th:each="album : ${autor.value}">
+                            <p><strong>Título:</strong> <span th:text="${album.titol}"></span></p>
+                            <p><strong>Año:</strong> <span th:text="${album.any}"></span></p>
+                            <p><strong>Ventas:</strong> <span th:text="${album.ventes}"></span></p>
+                            <img th:src="${album.portada}" alt="Portada">
+                        </li>
+                    </ul>
+                </description>
+            </item>
+        </th:block>
+    </channel>
+</rss>

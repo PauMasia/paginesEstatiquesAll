@@ -1,0 +1,65 @@
+[
+  {
+    "nomArt": "Drake",
+    "titol": "Thank me later",
+    "any": 2010,
+    "ventes": 2300000,
+    "portada": "../img/Thank_Me_Later_cover.jpg"
+  },
+  {
+    "nomArt": "Drake",
+    "titol": "Take Care",
+    "any": 2011,
+    "ventes": 3100000,
+    "portada": "../img/Drake_-_Take_Care_cover.jpg"
+  },
+  {
+    "nomArt": "Drake",
+    "titol": "Views",
+    "any": 2016,
+    "ventes": 2100000,
+    "portada": "../img/Drake_-_Views_cover.jpg"
+  },
+  {
+    "nomArt": "Kendrick Lamar",
+    "titol": "Section .80",
+    "any": 2011,
+    "ventes": 150000,
+    "portada": "../img/Section.80-Cover.jpg"
+  },
+  {
+    "nomArt": "Kendrick Lamar",
+    "titol": "Mr. Morale & the Big Steppers",
+    "any": 2022,
+    "ventes": 200000,
+    "portada": "../img/Kendrick_Lamar_-_Mr._Morale_&_the_Big_Steppers.png"
+  },
+  {
+    "nomArt": "Kendrick Lamar",
+    "titol": "Damn",
+    "any": 2017,
+    "ventes": 1000000,
+    "portada": "../img/Kendrick_Lamar_-_Damn.png"
+  },
+  {
+    "nomArt": "J. Cole",
+    "titol": "Cole World: The Sideline Story",
+    "any": 2011,
+    "ventes": 900000,
+    "portada": "../img/ColeWorld.jpeg"
+  },
+  {
+    "nomArt": "J. Cole",
+    "titol": "2014 Forest Hills Drive",
+    "any": 2014,
+    "ventes": 1300000,
+    "portada": "../img/2014ForestHillsDrive.jpg"
+  },
+  {
+    "nomArt": "J. Cole",
+    "titol": "Kids On Drugs",
+    "any": 2018,
+    "ventes": 300000,
+    "portada": "../img/JColeKOD.jpg"
+  }
+]

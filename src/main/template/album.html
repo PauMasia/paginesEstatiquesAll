@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title th:text="${prefijoAlbum}+ ${album[0].nomArt}">  </title>
+    <link rel="stylesheet" href="../css/index.css">
+</head>
+<body>
+<ul>
+    <li th:each="album : ${album}">
+        <p><strong>Año:</strong> <span th:text="${album.any}">Año</span></p>
+        <p><strong>Género:</strong> <span th:text="${album.ventes}">Género</span></p>
+        <img th:src="${album.portada}" alt="Imagen portada" style="width: 200px; height: auto;">
+    </li>
+</ul>
+</body>
+</html>

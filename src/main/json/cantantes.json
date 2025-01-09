@@ -1,0 +1,23 @@
+[
+  {
+    "name": "Aubrey Drake Graham",
+    "birth": 1986,
+    "country": "Canada",
+    "artistName": "Drake",
+    "actualImage": "../img/drake-perf.jpg"
+  },
+  {
+    "name": "Jermaine Lamarr Cole",
+    "birth": 1985,
+    "country": "Germany",
+    "artistName": "J. Cole",
+    "actualImage": "../img/jcole-perf.jpg"
+  },
+  {
+    "name": "Kendrick Lamar Duckworth",
+    "birth": 1987,
+    "country": "USA",
+    "artistName": "Kendrick Lamar",
+    "actualImage": "../img/kendrick-perf.jpg"
+  }
+]
