@@ -2,7 +2,7 @@
 <html xmlns:th="http://www.thymeleaf.org">
 <head>
     <title th:text="${nameIndex}"></title>
-    <link rel="stylesheet" href="src/css/index.css">
+    <link rel="stylesheet" href="src/main/css/index.css">
 </head>
 <body>
 <h1 th:text="${nameIndex}"></h1>
@@ -20,7 +20,7 @@
                     <strong><a th:href="'src/main/resToNGINX/'+${autor.artistName}+'.html'">Ver los albumes del artista</a></strong>
                 </p>
             </div>
-            <img class="autor-image" th:src="${autor.actualImage}" alt="Imagen de Artista">
+            <img class="autor-image" th:src="'src/main/img/'+${autor.actualImage}" alt="Imagen de Artista">
         </div>
     </li>
 </ul>
